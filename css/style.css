@@ -1,0 +1,120 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+
+/*Header section css start*/
+header {
+	background-color: #fff;
+}
+
+.warraper {
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.logo {
+	width: 20%;
+	float: left;
+	margin: 15px 0px;
+}
+.logo img{
+
+width: 100%;
+}
+.menu{
+	width: 80%;
+	float: right;
+	margin-top: 25px;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    float: left;
+}
+.menu ul li a{
+    font-family: sans-serif;
+    font-weight: 600px;
+    font-size: 18px;
+    color: #4A5B6B;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0 60px;
+    transition: 0.6s;
+}
+.menu ul li:last-child a{
+	padding-left: 0;
+}
+.menu ul li a:hover{
+	color:#3D7BE0;
+	cursor: pointer;
+}
+/*Header section css end*/
+
+/*Banner section css start*/
+
+.banner {
+	background: url(../images/bg.jpg) no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.contant {
+	margin: 350px 0 200px;
+    background-color: #0006;
+    width: 35%;
+    padding: 50px 0 30px 20px;
+}
+.contant h1{
+	font-family: sans-serif;
+    font-weight: 200;
+    font-size: 60px;
+    color: #d2dce8;
+    margin: 0 0;
+    word-spacing: 3px;
+
+}
+.contant p{
+	font-family: sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #d2dce8;
+	letter-spacing: 1px;
+	word-spacing: 2px;}
+.contant button{
+
+}
+/*Banner section css end*/
+
+
+.intro {
+	background: #fff;
+    margin: 65px 20px;
+}
+.intro h2{
+
+}
+
+.col-3 {
+	width: 33%;
+	float: left;
+}
+.col-3 img{
+}
+.col-3 p{
+}
+.col-3 button{
+}
+
+.img-center {
+}
+
+.read_more {
+}
+
+.footer_contant {
+}
